@@ -1,6 +1,13 @@
 .App {
-  width: 100%;
-  height: 100vh;
+  height: calc(100vh - 3rem);
+  max-width: 1560px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 3rem;
   background-color: var(--color-2);
-  border: 1px solid var(--color-2);
+  //BACKGROUND IMAGE LOADED IN INDEX.SCSS TO TOGGLE ON DATA THEME
+  background-repeat: no-repeat;
+  background-size: 100% 35vh;
 }

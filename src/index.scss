@@ -1,18 +1,48 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap");
 
 body {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'Josefin Sans', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 html {
-    --color-1: hsl(0, 0%, 98%);
-    --color-2: red;
-    --color-3: hsl(233, 11%, 84%);
-    --color-4: hsl(236, 9%, 61%);
-    --color-5: hsl(235, 19%, 35%);
+  overflow: scroll;
+  overflow-x: hidden;
+}
+::-webkit-scrollbar {
+  width: 0;
 }
 
-//DARK THEME HTML hsl(236, 33%, 92%);
+html[data-theme="light"] {
+  --color-1: hsl(0, 0%, 98%);
+  --color-2: hsl(236, 33%, 92%);
+  --color-3: hsl(233, 11%, 84%);
+  --color-4: hsl(236, 9%, 61%);
+  --color-5: hsl(235, 19%, 35%);
+  .App {
+    background-image: url("./assets/bg-desktop-light.jpg");
+  }
+}
+
+html[data-theme="dark"] {
+  --color-1: hsl(235, 21%, 11%);
+  --color-2: hsl(235, 24%, 19%);
+  --color-3: hsl(234, 39%, 85%);
+  --color-4: hsl(236, 33%, 92%);
+  --color-5: hsl(234, 11%, 52%);
+  --color-6: hsl(233, 14%, 35%);
+  --color-7: hsl(237, 14%, 26%);
+  .App {
+    background-image: url("./assets/bg-desktop-dark.jpg");
+  }
+}
+
+html.transition,
+html.transition *,
+html.transition *:before,
+html.transition *:after {
+  transition: all 500ms !important;
+  transition-delay: 0 !important;
+}

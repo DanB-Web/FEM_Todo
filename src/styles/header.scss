@@ -1,4 +1,11 @@
 .header-container {
-    width: 50%;
-    border: 1px solid red,
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  border: 1px solid red;
+  h1 {
+    color: #fff;
+    letter-spacing: 0.6rem;
+  }
 }
