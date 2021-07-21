@@ -10,4 +10,15 @@
   //BACKGROUND IMAGE LOADED IN INDEX.SCSS TO TOGGLE ON DATA THEME
   background-repeat: no-repeat;
   background-size: 100% 35vh;
+  //COMMON CHECKBOX STYLING FOR HEAER AND LIST
+  .todo-checkbox,
+  .input-checkbox {
+    border-radius: 50%;
+    padding: 0.3rem;
+    border: 1px solid hsl(234, 11%, 52%);
+  }
+  .bottom-text {
+    margin-top: 2rem;
+    color: var(--color-4);
+  }
 }

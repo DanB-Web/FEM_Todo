@@ -1,0 +1,46 @@
+.mobile-footer-container {
+  width: calc(40% - 1rem);
+  margin-top: 1.2rem;
+  padding: 0.5rem;
+  display: none;
+  color: var(--font);
+  background-color: var(--color-1);
+  border-radius: 5px;
+  .mobile-footer-buttons {
+    display: flex;
+    justify-content: center;
+    p {
+      margin: 0;
+      padding: 0.5rem;
+    }
+    p:hover {
+      cursor: pointer;
+      color: blue;
+    }
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .mobile-footer-container {
+    width: calc(50% - 1rem);
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .mobile-footer-container {
+    display: inline;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .mobile-footer-container {
+    display: inline;
+    width: calc(60% - 1rem);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .mobile-footer-container {
+    width: calc(80% - 1rem);
+  }
+}

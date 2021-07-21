@@ -1,0 +1,44 @@
+.todo-li {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  color: var(--font);
+  background-color: var(--color-1);
+  border-bottom: 1px solid hsl(234, 11%, 52%);
+  .todo-checkbox-div {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .todo-checkbox-complete {
+      background-image: linear-gradient(#8fb8f5, #9b32a8);
+    }
+    .todo-checkbox-incomplete {
+      background-color: var(--color-1);
+      padding: 0.6rem;
+    }
+  }
+  p {
+    width: 70%;
+    text-align: left;
+  }
+  .completed-todo {
+    text-decoration: line-through;
+    color: var(--color-4);
+  }
+  .todo-delete-div {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .todo-delete {
+      display: none;
+    }
+  }
+}
+
+.todo-li:hover {
+  .todo-delete {
+    display: block;
+  }
+}

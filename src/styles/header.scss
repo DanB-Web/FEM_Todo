@@ -3,9 +3,26 @@
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  border: 1px solid red;
   h1 {
     color: #fff;
     letter-spacing: 0.6rem;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .header-container {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .header-container {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .header-container {
+    width: 80%;
   }
 }

@@ -1,4 +1,48 @@
 .input-container {
+  width: 40%;
+  margin-top: 2rem;
+  display: flex;
+  background-color: var(--color-1);
+  .input-checkbox-div {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .input-checkbox-complete {
+      background-image: linear-gradient(#8fb8f5, #9b32a8);
+    }
+    .input-checkbox-incomplete {
+      background-color: var(--color-1);
+      padding: 0.6rem;
+    }
+  }
+  input {
+    width: 90%;
+    padding: 1rem;
+    color: var(--font);
+    background-color: var(--color-1);
+    border-radius: 5px;
+    border: none;
+  }
+  input:focus {
+    outline: none;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .input-container {
     width: 50%;
-    border: 1px solid red,
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .input-container {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .input-container {
+    width: 80%;
+  }
 }
