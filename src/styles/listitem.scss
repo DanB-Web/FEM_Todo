@@ -19,7 +19,7 @@
     }
   }
   p {
-    width: 70%;
+    width: 75%;
     text-align: left;
   }
   .completed-todo {
@@ -40,5 +40,13 @@
 .todo-li:hover {
   .todo-delete {
     display: block;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .todo-li {
+    .todo-checkbox-div {
+      width: 12%;
+    }
   }
 }

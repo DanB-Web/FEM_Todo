@@ -44,7 +44,7 @@ const List = ({todos, setTodos, renderedList, deleteTodoHandler, toggleCompleteH
                 )}
               </Droppable>
             </DragDropContext> 
-          : <p>Nothing to do!</p>}  
+          : <p className='no-todos'>Nothing to do!</p>}  
         </div>
     )
 }
