@@ -58,11 +58,11 @@ This was another Frontend Mentor project that I built from a Figma file and a ba
 
 - Drag and drop functionality to reorder the list, via React Beutiful Drap and Drop
 
-- A dark mode option, that I also added a transition time to so that it fades between modes rather than abrutply switching
+- A dark mode option - I also added a transition time to so that it fades between modes rather than abruptly switching
 
 - The banner image SVG changes depending on the mode and the window size
 
-- Filter the list view between all, completed and uncompleted list items
+- You can filter the list view between all, completed and uncompleted list items. I also added an active class so it was obvious which view was activated.
 
 ## Author
 
