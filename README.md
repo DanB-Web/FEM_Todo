@@ -56,7 +56,7 @@ Users should be able to:
 
 This was another Frontend Mentor project that I built from a Figma file and a basic design brief. There were a few interesting requirements that allowed me to make a simple Todo list a bit more interacvtive and engaging, such as:
 
-- Drag and drop functionality to reorder the list, via React Beutiful Drap and Drop
+- Drag and drop functionality to reorder the list, via React Beautiful Drap and Drop
 
 - A dark mode option - I also added a transition time to so that it fades between modes rather than abruptly switching
 
